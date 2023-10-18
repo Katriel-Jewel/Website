@@ -1,0 +1,120 @@
+body{
+    background-color: #829460;
+    color: #EEEEEE;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+  }
+  
+  header {
+    background-image: 
+      linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
+      url("img/hero.jpg");
+    background-size: cover,cover;
+    background-position: center,center;
+    width: 100vw;
+    padding: 20%;
+    color: white;
+    text-align: center;
+  }
+  
+  h3 {
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  #footer-section{
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: #434d33;
+    
+  }
+  
+  div.circular--portrait {
+    margin: auto;
+    border:7px solid rgba(255, 225, 225, 0.6);
+    position: relative;
+    width: 15vw; 
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  div img {
+    width: 100%;
+    height: auto; 
+  }
+  
+  header h1{
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3vw;
+    margin-top: 15px;
+  }
+  
+  header #tagline {
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 1.5vw;
+  }
+  
+  #mission-target,
+  #skils-target,
+  #contact-target {
+    position: relative;
+  }
+  
+  #skills-section {
+    background-color: #829460;
+    color: #434d33;
+  
+  }
+  
+  #mission-section,
+  #contact-section{
+    background-color: #5a664d;
+    color: #a9c17b;
+    padding: 20px 0 20px 0;
+  }
+  
+  #mission-section img {
+    width: 301px;
+    height: 200px;
+    padding: 20px 0 20px 0;
+  }
+  
+  #skills-section .row img{
+    padding: 10px 0 10px 0;
+    height: 125px;
+    width: 125px;
+  }
+  
+  #contact-section .row {
+    padding: 0 0 50px 0;
+  }
+  
+  #contact-section .contact{
+    color: #434242;
+    font-size: 50px;
+  }
+  
+  #contact-section .contact:hover{
+     color: #272626;
+  }
+  
+  @media screen and (max-width:700px){
+    
+    div.circular--portrait {
+      border:7px solid rgba(255, 225, 225, 0.6);
+      height: 150px;
+      width: 150px;
+    }
+  
+    header h1 {
+      font-size: 25px;
+    }
+  
+    header #tagline{
+      font-size: 12.5px;
+    }
+  }
