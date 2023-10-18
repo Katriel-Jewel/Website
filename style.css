@@ -8,7 +8,7 @@ body{
   header {
     background-image: 
       linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
-      url("img/hero.jpg");
+      url("hero.jpg");
     background-size: cover,cover;
     background-position: center,center;
     width: 100vw;
